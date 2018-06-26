@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E52B5B220E1C62A0056AE88 /* SelectPhotoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E52B5B120E1C62A0056AE88 /* SelectPhotoManager.m */; };
 		4E5B35FF20E0C0FE0060CCE8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E5B35FE20E0C0FE0060CCE8 /* AppDelegate.m */; };
 		4E5B360220E0C0FE0060CCE8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E5B360120E0C0FE0060CCE8 /* ViewController.m */; };
 		4E5B360520E0C0FE0060CCE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E5B360320E0C0FE0060CCE8 /* Main.storyboard */; };
@@ -15,6 +16,8 @@
 		4E5B360D20E0C1010060CCE8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E5B360C20E0C1010060CCE8 /* main.m */; };
 		4E5B361720E0C1020060CCE8 /* DrowLineTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E5B361620E0C1020060CCE8 /* DrowLineTestTests.m */; };
 		4E5B362220E0C1020060CCE8 /* DrowLineTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E5B362120E0C1020060CCE8 /* DrowLineTestUITests.m */; };
+		4E5B363120E0C39F0060CCE8 /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E5B363020E0C39F0060CCE8 /* TestView.m */; };
+		4E5B363720E0D0CB0060CCE8 /* DrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E5B363620E0D0CB0060CCE8 /* DrawingView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4E52B5B020E1C62A0056AE88 /* SelectPhotoManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelectPhotoManager.h; sourceTree = "<group>"; };
+		4E52B5B120E1C62A0056AE88 /* SelectPhotoManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectPhotoManager.m; sourceTree = "<group>"; };
 		4E5B35FA20E0C0FD0060CCE8 /* DrowLineTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrowLineTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E5B35FD20E0C0FE0060CCE8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4E5B35FE20E0C0FE0060CCE8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +56,10 @@
 		4E5B361D20E0C1020060CCE8 /* DrowLineTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrowLineTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E5B362120E0C1020060CCE8 /* DrowLineTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrowLineTestUITests.m; sourceTree = "<group>"; };
 		4E5B362320E0C1020060CCE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E5B362F20E0C39F0060CCE8 /* TestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestView.h; sourceTree = "<group>"; };
+		4E5B363020E0C39F0060CCE8 /* TestView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
+		4E5B363520E0D0CB0060CCE8 /* DrawingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawingView.h; sourceTree = "<group>"; };
+		4E5B363620E0D0CB0060CCE8 /* DrawingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawingView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +87,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E52B5AF20E1C5CC0056AE88 /* PhotoSelect */ = {
+			isa = PBXGroup;
+			children = (
+				4E52B5B020E1C62A0056AE88 /* SelectPhotoManager.h */,
+				4E52B5B120E1C62A0056AE88 /* SelectPhotoManager.m */,
+			);
+			path = PhotoSelect;
+			sourceTree = "<group>";
+		};
 		4E5B35F120E0C0FD0060CCE8 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +119,7 @@
 		4E5B35FC20E0C0FD0060CCE8 /* DrowLineTest */ = {
 			isa = PBXGroup;
 			children = (
+				4E52B5AF20E1C5CC0056AE88 /* PhotoSelect */,
 				4E5B35FD20E0C0FE0060CCE8 /* AppDelegate.h */,
 				4E5B35FE20E0C0FE0060CCE8 /* AppDelegate.m */,
 				4E5B360020E0C0FE0060CCE8 /* ViewController.h */,
@@ -110,6 +129,10 @@
 				4E5B360820E0C1010060CCE8 /* LaunchScreen.storyboard */,
 				4E5B360B20E0C1010060CCE8 /* Info.plist */,
 				4E5B360C20E0C1010060CCE8 /* main.m */,
+				4E5B362F20E0C39F0060CCE8 /* TestView.h */,
+				4E5B363020E0C39F0060CCE8 /* TestView.m */,
+				4E5B363520E0D0CB0060CCE8 /* DrawingView.h */,
+				4E5B363620E0D0CB0060CCE8 /* DrawingView.m */,
 			);
 			path = DrowLineTest;
 			sourceTree = "<group>";
@@ -262,8 +285,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E5B363120E0C39F0060CCE8 /* TestView.m in Sources */,
 				4E5B360220E0C0FE0060CCE8 /* ViewController.m in Sources */,
 				4E5B360D20E0C1010060CCE8 /* main.m in Sources */,
+				4E5B363720E0D0CB0060CCE8 /* DrawingView.m in Sources */,
+				4E52B5B220E1C62A0056AE88 /* SelectPhotoManager.m in Sources */,
 				4E5B35FF20E0C0FE0060CCE8 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -434,6 +460,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3HXKSU38SD;
 				INFOPLIST_FILE = DrowLineTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,6 +477,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3HXKSU38SD;
 				INFOPLIST_FILE = DrowLineTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
